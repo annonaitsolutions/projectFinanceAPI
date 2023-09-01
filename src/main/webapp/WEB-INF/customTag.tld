@@ -1,0 +1,31 @@
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+<tlib-version>1.0</tlib-version>
+<short-name>dt</short-name>
+<uri>/WEB-INF/customTag</uri>
+    <tag>
+        <name>compareDate</name>
+        <tag-class>annona.services.CompareDateTag</tag-class>
+        <body-content>JSP</body-content>
+        <info>This Tag Compares Given Date with Current Date and display colour accordingly</info>
+        <attribute>
+            <name>date</name>
+            <required>true</required>
+            <description>Provide the date</description>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+    <name>compareDays</name>
+        <tag-class>annona.services.DelayAdvDaysTag</tag-class>
+        <body-content>JSP</body-content>
+        <info>This Tag Compares Given Days and displays value accordingly</info>
+        <attribute>
+            <name>days</name>
+            <required>true</required>
+            <description>Provide the days</description>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>

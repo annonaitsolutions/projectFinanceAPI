@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+img.imagesize {
+	border:6px solid #ff8000;
+}
+.theme th{
+	
+	color:#ff8000;
+}
+.navbar2 {
+	background: #ff8000;
+}
+h5.sub-heading {
+    color: #ff8000;
+}
+.dropdown-menu {
+	background:#ff8000;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color:#cc6600;
+}
+#menuwrapper ul li:hover,
+#menuwrapper ul li.iehover{
+    background-color:#cc6600;
+}
+
+#menuwrapper ul li {
+    background-color: #ff8000;
+  
+}
+#menuwrapper ul li:hover ul li:hover,
+#menuwrapper ul li.iehover ul li.iehover{
+    background-color:#cc6600;
+}
+#menuwrapper ul li:hover ul li:hover, #menuwrapper ul li.iehover ul li.iehover {
+    background-color: #cc6600;
+}
+#menuwrapper ul li ul li{
+    background-color:#ff8000;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+   
+    background-color: #cc6600;
+    background-image: -moz-linear-gradient(top, #cc6600, #cc6600);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cc6600), to(#cc6600));
+    background-image: -webkit-linear-gradient(top, #cc6600, #cc6600);
+    background-image: -o-linear-gradient(top, #cc6600, #cc6600);
+    background-image: linear-gradient(to bottom, #cc6600, #cc6600);
+}
+
+#menuwrapper ul li:hover ul li:hover ul li:hover,
+#menuwrapper ul li.iehover ul li.iehover ul li.iehover{
+    background:#cc6600;
+}
+#menuwrapper ul li:hover ul li:hover ul li,
+#menuwrapper ul li.iehover ul li.iehover ul li{
+    background:#ff8000;
+}
+.navbar .nav>li:hover {
+    background: #cc6600;
+}
+.current-day {
+    background: #ff8000;
+}
+.calendar tbody td:hover {
+    border: 2px solid #cc6600;
+}
+.header_customer h3 {
+    color: #ff8000;
+}
+.btn-primary {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ff8000;
+    background-image: -moz-linear-gradient(top, #ff8000, #ff8000);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff8000), to(#ff8000));
+    background-image: -webkit-linear-gradient(top, #ff8000, #ff8000);
+    background-image: -o-linear-gradient(top, #ff8000, #ff8000);
+    background-image: linear-gradient(to bottom, #ff8000, #ff8000);
+    background-repeat: repeat-x;
+    border-color: #ff8000 #ff8000 #ff8000;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8000', endColorstr='#ff8000', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+    color: #ffffff;
+    background-color: #ff8000;
+}
+caption {
+    color: #ff8000;
+}
+.trading, .Master_plan {
+    background: #ff8000;
+}
+a.button-default.setlog.setlog {
+   
+    background: #ff8000;
+}
+.table_trading h4{
+	
+	color: #ff8000;
+}
+.datepicker table tr td.active:hover, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active[disabled], .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active.disabled:hover[disabled] {
+    background-color: #ff8000;
+}
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover {
+  background-color: #cc6600;
+  background-image: -moz-linear-gradient(top, #cc6600, #cc6600);
+  background-image: -ms-linear-gradient(top, #cc6600, #cc6600);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cc6600), to(#cc6600));
+  background-image: -webkit-linear-gradient(top, #cc6600, #cc6600);
+  background-image: -o-linear-gradient(top, #cc6600, #cc6600);
+  background-image: linear-gradient(top, #cc6600, #cc6600);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc6600', endColorstr='#cc6600', GradientType=0);
+  border-color: #cc6600 #cc6600 #cc6600;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.calendar h2 {
+    color: #ff8000;
+}
+.btn-prev:hover, .btn-next:hover {
+    background: #ff8000;
+    color: #f9f9f9;
+}
+#e1 b{
+	color:#ff8000;
+}
